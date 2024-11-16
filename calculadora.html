@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		input{
+			margin: 20px;
+			width: 280px;
+			height: 40px;
+		}
+
+		#todo{
+			margin: 50px;
+			background: violet;
+			width: 400px;
+			height: 500px;
+			border: purple 10px solid;
+		}
+
+        button{
+	        width: 80px;
+			height: 50px;
+			background: pink;
+			border-radius: 5px;
+			font-size: 2em;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+
+		button:hover{
+			border-bottom: 9px red solid;
+		}
+        body{
+	
+	        background-size: cover; 
+            background-repeat: no-repeat;
+        }
+
+	</style>
+	<title></title>
+</head>
+<body  background="img\jj.jpg">
+	<center>
+   <div  id="todo">
+	<form>
+		<input type="text" id="num">
+		<br>
+		<button type="button" id="b7" onclick="mam(7)">7</button>
+		<button type="button" id="b8" onclick="mam(8)">8</button>
+		<button type="button" id="b9" onclick="mam(9)">9</button>
+		<button type="button" id="bm" onclick="mam('+')">+</button>
+		<br>	
+		<button type="button" id="b4" onclick="mam(4)">4</button>
+		<button type="button" id="b5" onclick="mam(5)">5</button>
+		<button type="button" id="b6" onclick="mam(6)">6</button>
+		<button type="button" id="bn" onclick="mam('-')">-</button>
+		<br>	
+		<button type="button" id="b3" onclick="mam(3)">3</button>
+		<button type="button" id="b2" onclick="mam(2)">2</button>
+		<button type="button" id="b1" onclick="mam(1)">1</button>
+		<button type="button" id="bd" onclick="mam('/')">/</button>
+		
+		<br>	
+		<button type="button" id="bp" onclick="mam('*')">*</button>
+		<button type="button" id="bor"onclick="borrar() ;"><-</button>
+		<button type="reset">AC</button>
+		<button type="reset" onclick="guardar()">M+</button>
+		<br>	
+		<button type="button" onclick="mostrar()">M-</button>
+		<button type="button" id="bi" onclick="resultado();">=</button>
+		<br>
+		
+	</form>
+</div>
+</center>
+</body>
+</html>
+<script type="text/javascript">
+function mam(xy){
+	a1=document.getElementById('num').value;
+	document.getElementById('num').value=a1+xy;
+}	
+function resultado(){
+	x=document.getElementById('num').value;
+	mm=x.length-1;
+	z=x.substring(mm,mm+1);
+	if(z=='+' || z=='-' || z=='*' || z=='/')
+		alert ("ERROR");
+	else{
+		x1=eval(document.getElementById('num').value);
+	
+	document.getElementById('num').value=x1;
+}}
+function borrar(){
+	x1=document.getElementById('num').value;
+	x2=x1.length-1;
+	x3=x1.substring(0,x2);
+	document.getElementById('num').value=x3;
+
+}
+
+function guardar(){
+  gu=document.getElementById('num').value;
+	alert(gu);
+  
+
+}
+
+function mostrar(){
+document.getElementById('num').value=gu;
+
+}
+</script>

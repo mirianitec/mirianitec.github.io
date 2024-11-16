@@ -1,0 +1,43 @@
+#todo{
+padding-left:30px;
+padding-right: 30px;
+width: 300px;
+cursor: pointer;
+font-size: 15px;
+text-align: center;
+border-radius: 70px ;
+border: white 3px solid;
+box-shadow: 10px 5px 17px black;
+margin:auto;
+padding-top: 19px;
+padding-bottom: 19px;
+}
+
+#titulo {
+font-size: 30px;
+color:white;
+
+}
+#j1,#j2,#j3,#j4,#t5,#t6,#t7,#t8,#t9,#t11{
+background:cadetblue;
+text-align: center;
+padding-left:20px;
+padding-right: 20px;
+border-radius: 30px ;
+border: white 3px solid;
+padding-top: 15px;
+padding-bottom: 15px;
+margin:auto;
+margin: 10px;
+}
+#bi:hover{
+font-size: 15px;
+color:black;
+border: white 3px solid;
+}
+#bi{
+	background:cadetblue;
+	border-radius:2px;
+	color: white;
+	
+}

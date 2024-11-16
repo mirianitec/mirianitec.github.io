@@ -1,0 +1,172 @@
+navbar{
+	display: block;
+	width: 1400px;
+	
+	box-shadow: 10px 5px 17px black;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+	height: 85px;
+	color: orange;
+    background: rgba(44,62,80,0.2);
+    position: sticky;
+    top:0;
+}
+
+#titulo{
+	color:darkred;
+}
+
+body{
+	background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+br{
+  margin: 30px;
+}
+
+#el{
+	display: inline-block;
+	padding: 25px;
+}
+
+#el:hover{
+	border:peachpuff 4px outset;
+	border-radius: 24px;
+	background:	peachpuff;
+}
+
+a{
+  width: 200px;
+  text-decoration: none;
+  display: inline-block;
+  color: darkred;
+  filter:drop-shadow(2px  2px  20px  yellow); 
+}
+
+a:hover{
+  text-decoration: none;
+  color: chocolate;
+}
+
+ h1{
+ 	color: white;
+    }
+
+#todo2{
+
+  width: 1200px;
+  height: 1500px;
+  margin:auto;
+  background: transparent;
+  font-family: cursive;
+}
+div{
+  width: 1200px;
+   width: 1200px;
+  margin:auto;
+  background: transparent;
+  font-family: cursive;
+}
+
+#ini{
+  width:200px;
+  display: block;
+  transition: 01s;
+}
+
+#logo{
+	padding: 25px;
+	border-radius:50%; 
+	width: 200px;
+}
+
+img{
+  margin: 25px;
+  border-radius:124px; 
+	}
+    
+img:hover{
+    transition: 1s;
+    border-radius:12px; 
+ }
+     
+#inc{
+	width:300px; 
+	border-radius:30px; 
+}
+
+#inc:hover{
+	transition: 01s;
+    border-radius:124px;
+    
+ }
+
+ #carrera{
+	width:300px; 
+	border:black 3px solid;
+	color:darkred; 
+}   
+
+#tabmagen{
+	transition: 01s;
+}
+
+u{
+	color:black;
+}
+ 
+#docente:hover {
+   	color: blue;
+   
+   }
+
+ .d1{
+ 	display: inline-block;
+ 	background: rgba(44,62,80,0.2);
+	padding: 25px;
+	width: 170px;
+	margin: auto;
+	text-align: center;
+	border-radius:12px;
+	margin-top: 10px;
+    margin-right: 10px;
+	color: black;
+	}
+
+ .d1:hover {
+     transition: 01s;
+   	  padding: 10px;
+   }
+
+.fodoc {
+   	 display: none;
+     width: 100px;
+   
+   }
+
+.d1:hover .fodoc {
+   	display: block;
+   	
+ }
+  #institutos{
+  	display: inline;
+  color:darkred; 
+  filter:drop-shadow(2px  2px  20px  powderblue);
+  font-size: 1.5em;
+  } 
+#institutos:hover {
+   	color: blue;
+   	padding: 7px;
+ }
+
+#practica{
+	color:black;
+   font-family: cursive;
+}
+
+hr{
+ margin: 28px;
+}
+ 
